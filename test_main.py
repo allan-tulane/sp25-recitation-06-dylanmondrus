@@ -16,4 +16,6 @@ def test_fib_top_down():
 def test_fib_bottom_up():
     n = 10
     assert fib_bottom_up(n) == 55
+    print(fib_bottom_up(n))
 
+test_fib_bottom_up()

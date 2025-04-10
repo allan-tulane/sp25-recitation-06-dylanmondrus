@@ -46,6 +46,7 @@ Today we'll learn more about dynamic programming using the classic problem of co
 .  
 
 **6** When computing $F_n$, what is the maximum number of times that `fib_top_down(i)` will be called for any value $i$? Based on this, what is the **work** and **span** of this algorithm?
+The maximum number of times that fib_top_down will be called for any value i is 1. The work is O(n) and the span is O(n)
 
 **put answer in answers.md**  
 .  
@@ -59,6 +60,7 @@ Today we'll learn more about dynamic programming using the classic problem of co
 .  
 
 **8** When computing $F_n$, what is the maximum number of times that $F_i$ will be read for any value $i$? Based on this, what is the **work** and **span** of `fib_bottom_up`?
+The maximum number of times that Fi will be read for any value i is 2. The work is W(n) = O(n). The span is S(n) = O(n). 
 
 **put answer in answers.md**  
 .  
